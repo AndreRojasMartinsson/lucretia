@@ -10,4 +10,9 @@ license = "CC-BY-NC-SA-4.0"
 keywords = ["lua", "typing", "programming", "language"]
 
 [workspace.dependencies]
+# Internal dependencies
 lucretia_compiler = { path = "crates/lucretia_compiler" }
+
+# External dependencies
+log = "0.4.27"
+thiserror = "2.0.12"

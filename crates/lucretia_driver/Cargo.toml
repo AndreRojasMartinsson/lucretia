@@ -1,0 +1,14 @@
+[package]
+name = "lucretia_driver"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+keywords.workspace = true
+autobins = false
+
+[[bin]]
+name = "lucretiac"
+path = "src/main.rs"
+
+[dependencies]

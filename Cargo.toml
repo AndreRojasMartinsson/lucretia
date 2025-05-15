@@ -1,0 +1,12 @@
+[workspace]
+resolver = "2"
+members = ["crates/lucretia_compiler", "crates/lucretia_driver"]
+
+[workspace.package]
+version = "0.0.0"
+edition = "2024"
+authors = ["AndreRojasMartinsson"]
+license = "CC-BY-NC-SA-4.0"
+keywords = ["lua", "typing", "programming", "language"]
+
+[workspace.dependencies]

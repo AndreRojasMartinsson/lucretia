@@ -10,3 +10,4 @@ license = "CC-BY-NC-SA-4.0"
 keywords = ["lua", "typing", "programming", "language"]
 
 [workspace.dependencies]
+lucretia_compiler = { path = "crates/lucretia_compiler" }

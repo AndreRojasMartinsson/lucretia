@@ -9,3 +9,6 @@ version = "0.0.0"
 [[package]]
 name = "lucretia_driver"
 version = "0.0.0"
+dependencies = [
+ "lucretia_compiler",
+]

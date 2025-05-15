@@ -12,3 +12,4 @@ name = "lucretiac"
 path = "src/main.rs"
 
 [dependencies]
+lucretia_compiler.workspace = true
